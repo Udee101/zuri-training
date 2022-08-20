@@ -24,6 +24,7 @@
 	body {
 		display: block;
 		margin: 0 !important;
+		font-family: "Graphik" !important;
 		/* background: #fffefe !important; */
 	}
 </style>
