@@ -17,7 +17,7 @@
 
 <style scoped>
 	.benefit-box {
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		padding: 11px 10px 12px;
 		background: transparent;
 		border: 2px solid #fff;

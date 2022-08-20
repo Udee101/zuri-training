@@ -566,7 +566,7 @@
 
 <style>
 	.section1 {
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		max-width: 1440px !important;
 		width: 90% !important;
 	}
@@ -614,7 +614,7 @@
 		display: none;
 	}
 	.section2 {
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		max-width: 1440px !important;
 		width: 95% !important;
 	}
@@ -670,7 +670,7 @@
 			#fff4f0a9 84.37%,
 			rgba(255, 244, 240, 0)
 		) !important;
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		width: 100% !important;
 		margin: auto !important;
 	}
@@ -727,7 +727,7 @@
 		padding-top: 3px;
 	}
 	.section4 {
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		background: #e7332b;
 		margin-top: 149px;
 		color: #fff;
@@ -795,7 +795,7 @@
 			#fff6f3 84.37%,
 			rgba(255, 244, 240, 0)
 		) !important;
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 	}
 	.section5-container {
 		padding: 70px 20px 0;
@@ -886,7 +886,7 @@
 		margin-bottom: 25px;
 	}
 	.section6-container {
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		width: 100%;
 		padding: 20px;
 		max-width: 1440px !important;
@@ -932,7 +932,7 @@
 		font-size: 1.57em;
 	}
 	.section7-container {
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		width: 100%;
 		max-width: 1440px;
 		margin: auto !important;
@@ -978,7 +978,7 @@
 		margin-top: -110px;
 	}
 	.section8-container {
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		width: 90%;
 		max-width: 1440px !important;
 		background: #e7332b;
@@ -1028,7 +1028,7 @@
 		cursor: pointer;
 	}
 	footer {
-		font-family: "Graphik" !important;
+		font-family: Graphik !important;
 		width: 90%;
 		max-width: 1440px;
 		margin: auto;
