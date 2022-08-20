@@ -34,6 +34,7 @@
 
 <style scoped>
 	nav {
+		font-family: "Graphik" !important;
 		max-width: 100%;
 		padding: 15px;
 		overflow: hidden;
