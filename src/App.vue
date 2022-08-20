@@ -18,7 +18,7 @@
 		box-sizing: border-box;
 	}
 	#app {
-		font-family: Graphik;
+		font-family: Graphik !important;
 		background: rgb(255, 253, 245);
 	}
 	body {
