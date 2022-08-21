@@ -42,6 +42,7 @@
 		display: block;
 		margin: 0 !important;
 		font-family: "Graphik" !important;
+		box-sizing: border-box;
 		/* background: #fffefe !important; */
 	}
 </style>
