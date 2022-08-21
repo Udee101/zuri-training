@@ -238,6 +238,7 @@
 				<div class="scope-container row m-auto">
 					<div class="col-lg-4 pb-4">
 						<scope
+							:class="[isShown ? 'show' : '']"
 							class="scope-box front-end"
 							header="Frontend Development"
 							:img_src1="require('@/assets/html.svg')"
@@ -249,6 +250,7 @@
 
 					<div class="col-lg-4 pb-4">
 						<scope
+							:class="[isShown ? 'show' : '']"
 							class="scope-box back-end"
 							header="Backend Development"
 							:img_src1="require('@/assets/php2 logo.svg')"
@@ -260,6 +262,7 @@
 
 					<div class="col-lg-4 pb-4">
 						<scope
+							:class="[isShown && isShown2 ? 'show show2' : '']"
 							class="scope-box design"
 							header="Product Design"
 							:img_src1="require('@/assets/adobe-xd logo.svg')"
@@ -272,6 +275,7 @@
 				<div class="scope-container row m-auto">
 					<div class="col-lg-4 pb-4">
 						<scope
+							:class="[isShown ? 'show' : '']"
 							class="scope-box dev-ops"
 							header="DevOPS"
 							:img_src1="require('@/assets/Ubuntu logo.svg')"
@@ -283,6 +287,7 @@
 
 					<div class="col-lg-4 pb-4">
 						<scope
+							:class="[isShown ? 'show' : '']"
 							class="scope-box full-stack"
 							header="Fullstack Development"
 							:img_src1="require('@/assets/html.svg')"
@@ -295,6 +300,7 @@
 
 					<div class="col-lg-4 pb-4">
 						<scope
+							:class="[isShown ? 'show' : '']"
 							class="scope-box frame-works"
 							header="Frameworks"
 							:img_src1="require('@/assets/Laravel logo.svg')"
@@ -561,12 +567,18 @@
 			Scope,
 			FAQ,
 		},
+		data() {
+			return {
+				isShown: true,
+				isShown2: true,
+			};
+		},
 	};
 </script>
 
 <style>
 	.section1 {
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 		max-width: 1440px !important;
 		width: 90% !important;
 	}
@@ -614,7 +626,7 @@
 		display: none;
 	}
 	.section2 {
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 		max-width: 1440px !important;
 		width: 95% !important;
 	}
@@ -634,6 +646,7 @@
 	}
 	.i4g-img-main img {
 		width: 52% !important;
+		mix-blend-mode: darken;
 	}
 	.i4g-end-text {
 		padding: 16px 10px;
@@ -670,7 +683,7 @@
 			#fff4f0a9 84.37%,
 			rgba(255, 244, 240, 0)
 		) !important;
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 		width: 100% !important;
 		margin: auto !important;
 	}
@@ -727,7 +740,7 @@
 		padding-top: 3px;
 	}
 	.section4 {
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 		background: #e7332b;
 		margin-top: 149px;
 		color: #fff;
@@ -795,7 +808,7 @@
 			#fff6f3 84.37%,
 			rgba(255, 244, 240, 0)
 		) !important;
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 	}
 	.section5-container {
 		padding: 70px 20px 0;
@@ -836,6 +849,12 @@
 	}
 	.scope-box img {
 		margin-right: 15px;
+	}
+	.show .img4 {
+		display: none !important;
+	}
+	.show2 .img3 {
+		display: none;
 	}
 	.scope-box .desc {
 		font-size: 1em;
@@ -886,7 +905,7 @@
 		margin-bottom: 25px;
 	}
 	.section6-container {
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 		width: 100%;
 		padding: 20px;
 		max-width: 1440px !important;
@@ -932,7 +951,7 @@
 		font-size: 1.57em;
 	}
 	.section7-container {
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 		width: 100%;
 		max-width: 1440px;
 		margin: auto !important;
@@ -978,7 +997,7 @@
 		margin-top: -110px;
 	}
 	.section8-container {
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 		width: 90%;
 		max-width: 1440px !important;
 		background: #e7332b;
@@ -1028,7 +1047,7 @@
 		cursor: pointer;
 	}
 	footer {
-		font-family: Graphik !important;
+		font-family: "Graphik" !important;
 		width: 90%;
 		max-width: 1440px;
 		margin: auto;
