@@ -31,4 +31,14 @@
 		font-size: 0.9em;
 		margin: 0 3px;
 	}
+	@media screen and (min-width: 1200px) {
+		.benefit-box {
+			padding: 11px 5px 12px;
+		}
+		.benefit-box .benefit-text {
+			font-size: 1em;
+			margin: 0;
+			padding: 0;
+		}
+	}
 </style>
