@@ -983,6 +983,9 @@
 		margin: auto !important;
 		padding: 10px 20px;
 	}
+	.move {
+		display: none;
+	}
 	.time-structure {
 		background: #1b1a20 !important;
 		color: #fff;
@@ -990,6 +993,7 @@
 		border-radius: 65px;
 		box-shadow: 0px 30px 45px 28px #ffe2d872 !important;
 		box-sizing: border-box !important;
+		margin-bottom: 15px;
 	}
 	.time-structure .head {
 		font-size: 2.17em;
@@ -1028,7 +1032,7 @@
 		width: 90%;
 		max-width: 1440px !important;
 		background: #e7332b;
-		margin-top: 30px !important;
+		margin-top: 60px !important;
 		margin: auto;
 	}
 	.img1 img {
