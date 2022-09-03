@@ -44,7 +44,7 @@
 		width: 90%;
 		max-width: 1440px !important;
 		background: #e7332b;
-		margin-top: 70px;
+		margin-top: 75px !important;
 		margin: auto;
 	}
 	.img1 img {
@@ -79,7 +79,7 @@
 	.started .desc {
 		font-size: 1.9em;
 		line-height: 130%;
-		font-weight: 600;
+		font-weight: 500;
 		padding-bottom: 35px;
 	}
 	.started .enroll-btn button {
@@ -128,7 +128,7 @@
 		.started .desc {
 			font-size: 3.5em;
 			width: 50%;
-			margin: auto !important;
+			margin: auto;
 		}
 		.img1 img {
 			width: 12%;

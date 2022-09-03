@@ -207,32 +207,6 @@
 	.circle2 {
 		display: none;
 	}
-	/* footer {
-			font-family: "Graphik" !important;
-			width: 90%;
-			max-width: 1440px;
-			margin: auto;
-			padding-top: 90px;
-		}
-		.foot-links {
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-		.media-links a {
-			margin-right: 10px;
-		}
-		.bottom-links {
-			text-align: center;
-		}
-		.bottom-links p a {
-			font-size: 1em;
-			text-decoration: none;
-			color: #1b1a20;
-		}
-		.copy {
-			text-align: center;
-			font-size: 1em;
-		} */
 	@media screen and (min-width: 700px) {
 		.section4-container {
 			width: 90%;
@@ -263,37 +237,6 @@
 			width: 15%;
 			margin-top: -110px;
 		}
-		/* .foot-links {
-				justify-content: space-between;
-			}
-			.foot-bottom {
-				display: flex;
-				justify-content: space-between;
-			}
-			.bottom-links {
-				width: 100%;
-				display: flex;
-				justify-content: flex-end;
-				float: right !important;
-				margin-top: 15px;
-			}
-			.bottom-links .i4g {
-				position: absolute;
-				float: right;
-			}
-			.bottom-links .privacy {
-				position: absolute;
-				float: left;
-				margin-right: 160px;
-			}
-			.bottom-line {
-				display: none !important;
-			}
-			.copy {
-				position: absolute;
-				float: left;
-				margin-top: 38px;
-			} */
 	}
 
 	@media screen and (min-width: 800px) {

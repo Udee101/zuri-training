@@ -13,7 +13,6 @@
 </script>
 
 <style>
-	/* @import "./assets/style.css"; */
 	* {
 		box-sizing: border-box;
 	}

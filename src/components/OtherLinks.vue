@@ -40,7 +40,7 @@
 		.bottom-links .privacy {
 			position: absolute;
 			float: left;
-			margin-right: 160px;
+			margin-right: 180px !important;
 		}
 	}
 </style>

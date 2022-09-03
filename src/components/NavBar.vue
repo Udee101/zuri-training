@@ -48,6 +48,7 @@
 		width: 100%;
 		padding: 10px 5px;
 		margin: 0 2px;
+		margin: auto;
 	}
 	.logo img {
 		padding: 15px 0;
@@ -80,11 +81,6 @@
 		margin: 0;
 	}
 
-	/* @media screen and (min-width: 480px) {
-										.logo img {
-											width: 220px;
-										}
-									} */
 	@media screen and (min-width: 800px) {
 		.wrapper {
 			display: flex;
@@ -110,19 +106,21 @@
 		}
 		.wrapper {
 			justify-content: space-between;
-			width: 95%;
-			padding: 10px;
+			width: 90%;
+			padding: 5px;
+			margin: auto;
 		}
 		.nav-links {
-			width: 420px;
+			width: 400px;
 			display: flex;
+			justify-content: flex-end;
 			align-items: center;
-			margin: 0 0 0 55px;
+			margin: 0 30px 0 0;
 		}
 		.nav-links a {
 			text-decoration: none;
-			font-size: 1em;
-			margin: 0 0.7em;
+			font-size: 0.9em;
+			margin: 0 0.5em;
 			padding: 0 1em 0 0;
 		}
 		.enroll img {

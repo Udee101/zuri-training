@@ -25,7 +25,7 @@
 	}
 	.scope .sub-head {
 		font-size: 1.55em;
-		font-weight: 600;
+		font-weight: 500;
 		line-height: 130%;
 	}
 
