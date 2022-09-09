@@ -1,13 +1,13 @@
 <template>
-	<zuri-training></zuri-training>
+	<zuri-training-page></zuri-training-page>
 </template>
 
 <script>
-	import ZuriTraining from "@/views/ZuriTraining.vue";
+	import ZuriTrainingPage from "@/views/ZuriTrainingPage.vue";
 	export default {
 		name: "App",
 		components: {
-			ZuriTraining,
+			ZuriTrainingPage,
 		},
 	};
 </script>

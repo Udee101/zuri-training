@@ -90,19 +90,19 @@
 
 <script>
 	import NavBar from "@/components/NavBar.vue";
-	import HeroSection from "@/components/HeroSection.vue";
-	import I4GSection from "@/components/I4GSection.vue";
-	import WhyUsSection from "@/components/WhyUsSection.vue";
+	import HeroSection from "@/views/HeroSection.vue";
+	import I4GSection from "@/views/I4GSection.vue";
+	import WhyUsSection from "@/views/WhyUsSection.vue";
 	import Button from "@/components/Button.vue";
-	import BenefitsContainer from "@/components/BenefitsContainer.vue";
-	import ScopeContainer from "@/components/ScopeContainer.vue";
-	import FaqSection from "@/components/FaqSection.vue";
-	import ProgStructureSection from "@/components/ProgStructureSection.vue";
+	import BenefitsContainer from "@/views/BenefitsContainer.vue";
+	import ScopeContainer from "@/views/ScopeContainer.vue";
+	import FaqSection from "@/views/FaqSection.vue";
+	import ProgStructureSection from "@/views/ProgStructureSection.vue";
 	import GetStarted from "@/components/GetStarted.vue";
 	import ZuriFooter from "@/components/ZuriFooter.vue";
 
 	export default {
-		name: "ZuriTraining",
+		name: "ZuriTrainingPage",
 		components: {
 			NavBar,
 			HeroSection,
